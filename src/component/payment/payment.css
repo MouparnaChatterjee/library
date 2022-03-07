@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500);
+
+
+.paymentBody{
+    padding: 60px 0;
+    background: linear-gradient(90deg, #C7C5F4, #a1bfee);
+    margin: 5% auto;
+    width: 80%;
+   border-radius: 20px;
+  }
+  .paymentBody-left{
+    padding: 60px 0;
+    background: linear-gradient(90deg, #a1bfee,#C7C5F4);
+    margin: 5% auto;
+    width: 80%;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    margin-right: -15%;
+  }
+  .body-text {
+    padding: 0 20px 30px 20px;
+    font-family: "Roboto";
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    line-height: 1.2em;
+  } 
+
+.form-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-wrapper {
+    background-color: #6FB7E9;
+    width: 100%;
+    display: flex;
+  
+  }
+  .personal-information {
+    background-color: #191970;
+    color: #c0e4fd;
+    padding: 2px 0;
+    text-align: center;
+    margin-right: 3%;
+     }
+   .personal-information1{
+    background-color: #191970;
+    color: #c0e4fd;
+    padding: 2px 0;
+    text-align: center;
+    margin-left: 7%;
+   }  
+   .personal-information1 h1{
+    font-size: 1.3em;
+    font-family: "Roboto"
+   }
+   .purchase{
+       background-color: #fff;
+       padding-left: 20%;
+       margin-left: 7%;
+   }
+   .purchase table tr{
+       
+       height: 100%;
+       width: 100%;
+       text-align: left;
+       margin-left: 2%;
+       border-bottom: #191970 1px dashed;
+      
+   }
+   .purchase p{
+      margin-left: -1%;
+      padding-left:50px;
+       margin-top: 10px;
+       margin-bottom: 5px;
+       background-color: #fff;
+       color: rgb(85, 81, 81);
+      
+   }
+  .personal-information h1 {
+    font-size: 1.3em;
+    font-family: "Roboto"
+  }
+  .paymentBody input {
+    margin: 1px 0;
+    padding-left: 3%;
+    font-size: 14px;
+  }
+  .paymentBody input[type="text"]{
+    display: block;
+    height: 50px;
+    width: 97%;
+    border: none;
+  }
+  .paymentBody input[type="number"]{
+    display: block;
+    height: 50px;
+    width: 97%;
+    border: none;
+  }
+ .paymentBody input[type="email"]{
+    display: block;
+    height: 50px;
+    width: 97%;
+    border: none;
+  }
+  
+  
+  .column-left {
+    width: 46.5%;
+    float: left;
+    margin-bottom: 2px;
+  }
+  .column-right {
+    width: 46.5%;
+    float: right;
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width: 1200px){
+    .purchase{
+      background-color: #fff;
+      padding-left: 20%;
+      margin-left: 7%;
+      margin-bottom: 50px;
+  }
+   .paymentBody {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .paymentBody-left{
+        padding: 60px 0;
+        background: linear-gradient(90deg, #a1bfee,#C7C5F4);
+        margin: 5% auto;
+        width: 80%;
+    }
+    .form-container {
+      margin: 0 2%;
+    }
+    input {
+      font-size: 1em;
+    }
+    .input-button {
+      width: 100%;
+    }
+    .input-field {
+      width: 96.5%;
+    }
+   .paymentBody h1 {
+      font-size: 1.2em;
+    }
+   .paymentBody input {
+      margin: 2px 0;
+    }
+    .paymentBody input[type="submit"]{
+      height: 50px;
+    }
+    .column-left {
+      width: 96.5%;
+      display: block;
+      float: none;
+    }
+    .column-right {
+      width: 96.5%;
+      display: block;
+      float: none;
+    }
+  }
+
+  @media only screen and (min-width:321px) and (max-width:1020px){
+
+    .purchase table tr{
+       
+      height: 100%;
+      width: 100%;
+      text-align: left;
+      margin-left: 2%;
+      margin-right: 2%;
+      border-bottom: #191970 1px dashed;
+      
+     
+  }
+  }

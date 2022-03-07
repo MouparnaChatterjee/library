@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.topheader{
+    height: 100px;
+    
+}
+
+.logobox{
+    margin-left: -50%;
+    margin-top: 5px;
+    border-right: 2px dashed #191970;
+}
+
+.textHead{
+    border-left: 2px dashed #191970;
+    margin-top: 10px;
+    margin-left: -40%;
+   
+}
+.text1{
+    color: #191970;
+    margin-left: -300px;
+   font-size: 60px;
+   font-family: 'Kaushan Script', cursive;
+}
+@media only screen and (min-width:800px) and (max-width:1200px){
+
+    .textHead{
+       
+        margin-top: 10px;
+        margin-left: -2%;
+      
+    }
+    .text1{
+        color: #191970;
+        margin-left: 10px;
+       font-size: 50px;
+       font-family: 'Kaushan Script', cursive;
+    }
+    .logobox{
+        margin-left: -5%;
+        margin-top: 5px;
+        
+    }
+}
+@media only screen and (min-width:321px) and (max-width:799px){
+    .textHead{
+       
+        margin-top: 10px;
+        margin-left: 2%;
+      
+    }
+    .text1{
+        color: #191970;
+        margin-left: 10px;
+       font-size:30px;
+       font-family: 'Kaushan Script', cursive;
+    }
+}

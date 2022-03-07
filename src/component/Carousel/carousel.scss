@@ -1,0 +1,56 @@
+@mixin marginPosition($left, $top) {
+    margin-left: $left;
+    margin-top: $top;
+}
+@mixin font($family,$size,$color,$background) {
+    font-family: $family;
+    font-size: $size;
+    color: $color;
+    background: $background;
+}
+
+@mixin line-H($btop, $bBot, $bLeft, $bRight, $w, $type, $col){
+ border-top: $bBot $w $type $col;
+ border-bottom: $bBot $w $type $col;
+ border-left: $bLeft $w $type $col;
+ border-right: $bRight $w $type $col;
+ 
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.caption{
+   @include marginPosition(-80%, 0%);
+   @include font(arial, 40px, white, none);
+}
+
+.captionpara{
+    @include marginPosition(-80%, 0%);
+    @include font(arial, 20px, white, none);
+}
+
+.section-one{
+    @include marginPosition(0, 5%);
+    
+    & h1{
+        @include font(arial, 40px, #9c1e5e, transparent);
+        font-weight: bold;
+    }
+    & p{
+        color: #7b7d84;
+        text-align: justify;
+    }
+   
+}
+.horizen{
+    border-top: 3px dashed #5f0333;
+    background-color: transparent;
+}
+
+.horizen1{
+    @extend .horizen;
+    margin-left:30%;
+    margin-right:30%;
+}

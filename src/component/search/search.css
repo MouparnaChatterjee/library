@@ -1,0 +1,165 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+ 
+ 
+ .search input {
+   
+   
+    display: block;
+    width: 50%;
+    padding: 10px 32px 10px 70px;
+    font-size: 18px;
+    height: 40px;
+    color: blue;
+    background: linear-gradient(90deg, #c9c7d8, #82c4f0);
+    font-family: 'Lato', sans-serif;
+    
+    border-top-left-radius: 10% 48%;
+    border-top-right-radius:10% 48%;
+    border-bottom-left-radius: 10% 48%;
+    border-bottom-right-radius:10% 48%;
+    
+  }
+
+  .search input::placeholder{
+      color: blue;
+  }
+  
+  .search input::-webkit-input-placeholder{
+      color: black;
+  }
+  .search input:-moz-placeholder{
+        color:black;
+  }
+
+  .btn-sub{
+    background-color: #191970;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-top-left-radius: 20% 50%;
+    border-top-right-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+    border-bottom-right-radius: 20% 50%;
+    
+    text-decoration: none!important;
+    font-weight: bold;
+  }
+  .btn-sub:hover{
+      background:linear-gradient(90deg, #C7C5F4, #a1bfee);
+      color: #191970;
+      border: #191970 2px solid;
+  }
+  .table{
+    border: #191970 2px solid;
+}
+.tablehead{
+    background: linear-gradient(90deg, #C7C5F4, #a1bfee);
+    border: #191970 2px solid;
+}
+.tablehead tr th{
+    border: #191970 2px solid;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tablebody{
+    border: #191970 2px solid;
+}
+
+.tablebody tr td{
+    border: #191970 2px solid;
+    font-weight: 600;
+}
+.btn-sub-advance{
+    background-color: #191970;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-top-left-radius: 20% 50%;
+    border-top-right-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+    border-bottom-right-radius: 20% 50%;
+    text-decoration: none!important;
+    font-weight: bold;
+    margin-left: 80%;
+    cursor: pointer;
+}
+.btn-sub-advance:hover{
+    background:linear-gradient(90deg, #C7C5F4, #a1bfee);
+    color: #191970;
+    border: #191970 2px solid;
+}
+.list{
+   
+    float: left;
+}
+.list li{
+    display: list-item;
+    text-align: left;
+    margin: 0 10px;
+    align-items: initial;
+    color: #3b3b3d;
+}
+.border{
+    border: 1px solid #0101116e;
+    text-align: justify;
+    color: #3b3b3d;
+}
+.highlight{
+    margin-left: 50%;
+}
+.bookheading{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bolder;
+    color: #191970;
+}
+.buybutton{
+   margin-left: 120px;
+    text-decoration: none;
+}
+.search1{
+    margin-left: 200px;
+}
+.btn-sub1{
+    background-color: #191970;
+    color: #0d6efd;
+    border: none;
+    height: 40px;
+    width: auto;
+    border-top-left-radius: 20% 50%;
+    border-top-right-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+    border-bottom-right-radius: 20% 50%;
+    
+    text-decoration: none!important;
+    font-weight: bold;
+}
+.btn-sub1:hover{
+    background:linear-gradient(90deg, #C7C5F4, #a1bfee);
+    color: #191970;
+    border: #191970 2px solid;
+}
+@media only screen and (min-width:321px) and (max-width:1020px){
+
+    .btn-sub-advance{
+        background-color: #191970;
+        color: white;
+        border: none;
+        height: auto;
+        width: 50%;
+       border-radius: 10px;
+        text-decoration: none!important;
+        font-weight: bold;
+        margin-left: 40%;
+        cursor: pointer;
+    }
+    .btn-sub-advance:hover{
+        background:linear-gradient(90deg, #C7C5F4, #a1bfee);
+        color: #191970;
+        border: #191970 2px solid;
+    }
+}

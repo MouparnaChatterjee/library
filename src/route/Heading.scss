@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500);
+
+$font-size: 30px;
+$tab-size: 15px;
+
+.mynav{
+    background: linear-gradient(90deg, #C7C5F4, #a1bfee);	
+    border-top: 1px dashed #191970;
+    border-bottom: 1px dashed #191970;
+    z-index: 9999;
+    
+    .logo{
+        color: #191970;
+        font-weight: bold;
+        font-size: $font-size;
+    }
+    .tabcolor{
+        color: #191970!important;
+        font-size:$tab-size;
+        font-weight: bold;
+    }
+    .tabcolor:hover{
+        color: red!important;
+        font-weight: bold;
+    }
+    .btn-1{
+        background-color: #191970;
+        color: white;
+        border: none;
+        height: 40px;
+        border-top-left-radius: 30% 50%;
+        border-top-right-radius: 30% 50%;
+        border-bottom-left-radius: 30% 50%;
+        border-bottom-right-radius: 30% 50%;
+        box-shadow: -2px -5px 19px 0px rgba(218,156,224,1);
+        font-weight: 500;
+    }
+    .btn-1:hover{
+        background-color: white;
+        color: #191970;
+        border: #191970 2px solid;
+        font-weight: bold;
+    }
+   
+}
+@media only screen and (min-width:321px) and (max-width:1020px){
+
+    .smallnav{
+        background:linear-gradient(90deg, #C7C5F4, #a1bfee);
+        border-bottom: 1px dashed #191970;
+        margin-top: -1%!important;
+        width: 50%;
+        float: right;
+        height: auto;
+    }
+    .tabcolor{
+        color: #191970!important;
+        font-size:$tab-size;
+        font-weight: bold;
+        border-bottom: #191970 1px dashed;
+    }
+    .btn-1{
+        background-color: #191970;
+        color: white;
+        border: none;
+        height: 20px;
+        width: 50%;
+        border-top-left-radius: 30% 50%;
+        border-top-right-radius: 30% 50%;
+        border-bottom-left-radius: 30% 50%;
+        border-bottom-right-radius: 30% 50%;
+        box-shadow: -2px -5px 19px 0px rgba(218,156,224,1);
+        font-weight: 500;
+       margin-left: 25%;
+       padding-bottom: 5%;
+    }
+    .btn-1:hover{
+        background-color: white;
+        color: #191970;
+        border: #191970 2px solid;
+        font-weight: bold;
+    }
+}
