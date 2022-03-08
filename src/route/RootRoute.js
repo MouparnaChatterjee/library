@@ -9,9 +9,8 @@ import AdvanceSearch from '../component/search/AdvanceSearch'
 import Content from '../component/search/Content'
 import Protected from '../component/protected/Protected'
 import Footer from './Footer'
-
 import Payment from '../component/payment/Payment'
-
+import About from '../component/about/About'
 
 function RootRoute() {
   return (
@@ -27,7 +26,7 @@ function RootRoute() {
             <Route path='/search/:sid' element={<AdvanceSearch />} />
             <Route path='/search/:sid/:bid' element={<Content />} /> 
             <Route path='/search/:sid/:bid/:id/:val/:total' element={<Payment />} />
-            
+            <Route path='/about' element={<About />} />
         <Route element={<Protected />} >
         
         <Route path='/search' element={<Search />} />

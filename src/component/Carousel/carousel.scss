@@ -1,3 +1,5 @@
+@import '../../route/Heading.scss';
+
 @mixin marginPosition($left, $top) {
     margin-left: $left;
     margin-top: $top;
@@ -53,4 +55,28 @@ body{
     @extend .horizen;
     margin-left:30%;
     margin-right:30%;
+}
+
+.btn-sub-pos{
+    background-color: #191970;
+        color: white;
+        border: none;
+        height: 40px;
+        
+        padding-top: 5px;
+        width: 20%;
+        border-top-left-radius: 15% 50%;
+        border-top-right-radius: 15% 50%;
+        border-bottom-left-radius: 15% 50%;
+        border-bottom-right-radius: 15% 50%;
+        box-shadow: -2px -5px 19px 0px rgba(144, 136, 145, 0.507);
+        font-weight: 500;
+       margin-left: 80%;
+       padding-bottom: 5%;
+}
+.btn-sub-pos:hover{
+    background-color: white;
+    color: #191970;
+    border: #191970 2px solid;
+    font-weight: bold;
 }
