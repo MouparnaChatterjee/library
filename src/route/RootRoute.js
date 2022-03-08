@@ -1,7 +1,7 @@
-import React, {lazy, Suspense} from 'react'
+import React from 'react'
 import Heading from './Heading'
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom'
- import Home from '../component/home/Home'
+import Home from '../component/home/Home'
 import Reg from '../component/Registration/Reg'
 import Login from '../component/log/Login'
 import Search from '../component/search/Search'
@@ -9,8 +9,9 @@ import AdvanceSearch from '../component/search/AdvanceSearch'
 import Content from '../component/search/Content'
 import Protected from '../component/protected/Protected'
 import Footer from './Footer'
-import { PNF } from '../component/pnf/PNF'
+
 import Payment from '../component/payment/Payment'
+
 
 function RootRoute() {
   return (
@@ -19,9 +20,8 @@ function RootRoute() {
       
         <Heading />
         <Routes>
-       
+          
             <Route path='/' element={<Home />} />
-           
             <Route path='/reg' element={<Reg />} />
             <Route path='/login' element={<Login />} />
             <Route path='/search/:sid' element={<AdvanceSearch />} />
