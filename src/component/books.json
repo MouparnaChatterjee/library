@@ -30,7 +30,7 @@
                         "img":"https://media.wired.com/photos/5dfc0b15a03b9b0008afa1a0/master/w_1600%2Cc_limit/Science_books_9781328879981_hres.jpg",
                         "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                         "link":"https://www.flipkart.com/",
-                        "price":220,
+                        "price":600,
                         "quantity":10
                     }
                 },
@@ -44,7 +44,21 @@
                     "img":"https://inteng-storage.s3.amazonaws.com/images/DECEMBER/sizes/best_science_books_Brief_History_resize_md.jpg",
                     "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                     "link":"https://www.flipkart.com/",
-                    "price":220,
+                    "price":400,
+                    "quantity":10
+                    }
+                },
+                {
+                    "bid":"s04",
+                    "title":"A Short History of Nearly Everything",
+                    "keyword":"Classic Science",
+                    "content":{
+                     "id":"s004",   
+                    "author":"Bill Bryson",
+                    "img":"https://inteng-storage.s3.amazonaws.com/images/DECEMBER/best_science_books_nearly_everything.jpg",
+                    "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "link":"https://www.flipkart.com/",
+                    "price":500,
                     "quantity":10
                     }
                 }
@@ -65,7 +79,7 @@
                     "img":"https://images-na.ssl-images-amazon.com/images/I/81NbdUH+HIL.jpg",
                     "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                     "link":"https://www.flipkart.com/", 
-                    "price":220,
+                    "price":320,
                     "quantity":10
                 } 
             },
@@ -129,7 +143,7 @@
                         "img":"https://images-na.ssl-images-amazon.com/images/I/61MY4a5pqlL.jpg",
                         "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                         "link":"https://www.flipkart.com/",
-                        "price":220,
+                        "price":120,
                         "quantity":10
                         }  
                 },
@@ -143,11 +157,103 @@
                         "img":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481280703l/1580993._SY475_.jpg",
                         "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                         "link":"https://www.flipkart.com/",
-                        "price":220,
+                        "price":250,
                         "quantity":10
                         }  
                 }
             ]   
+        },
+        {
+            "sid":"4",
+            "subject":"Medical Science",
+            "almirah":"AMS01",
+            "quantity_of_books":"100",
+            "list":[
+                {
+                    "bid":"m01",
+                    "title":"Medical Labratory Science",
+                    "keyword":"Anatomy",
+                    "content":{
+                        "id":"m001",
+                        "author":"A Kolhatkar",
+                        "img":"https://images-na.ssl-images-amazon.com/images/I/71J7jQfTFRL.jpg",
+                        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                        "link":"https://www.flipkart.com/",
+                        "price":1000,
+                        "quantity":30
+                        }  
+                },
+                {
+                    "bid":"m02",
+                    "title":"The text book of Biochemistry",
+                    "keyword":"Biochemistry",
+                    "content":{
+                        "id":"m002",
+                        "author":"Vasudeban",
+                        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1wL-y_YsDLKZeCNdSnlJBslUWL_VNRsiFxJDHExAC-ODKzUOTosOqIwE54JQsz0zVKuU&usqp=CAU",
+                        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                        "link":"https://www.flipkart.com/",
+                        "price":1200,
+                        "quantity":70
+                        }  
+                }
+               
+            ]   
+        },
+        {
+            "sid":"5",
+            "subject":"Polity",
+            "almirah":"AP01",
+            "quantity_of_books":"200",
+            "list":[
+                {
+                    "bid":"p01",
+                    "title":"Indian Polity",
+                    "keyword":"Right Duty Article Vetopower",
+                    "content":{
+                        "id":"p001",
+                        "author":"M Laxmikant",
+                        "img":"https://images-na.ssl-images-amazon.com/images/I/810fowVBEQL.jpg",
+                        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                        "link":"https://www.flipkart.com/",
+                        "price":500,
+                        "quantity":50
+                        }  
+                },
+                {
+                    "bid":"p02",
+                    "title":"Jigasha's Indian Polity",
+                    "keyword":"budget veto",
+                    "content":{
+                        "id":"p002",
+                        "author":"Unknown",
+                        "img":"https://azadpublication.com/image/cache/catalog/New%20Books/lexis-nexis-publication-jigeesha-s-indian-polity-2nd-edition-english-paperback-4198-1000x1000.jpg",
+                        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                        "link":"https://www.flipkart.com/",
+                        "price":800,
+                        "quantity":70
+                        }  
+                },
+                {
+                    "bid":"p03",
+                    "title":"Indian Polity & Constitution",
+                    "keyword":"Constitution",
+                    "content":{
+                        "id":"p003",
+                        "author":"Wizard",
+                        "img":"https://thebookshoponline.com/image/cache/catalog/New%20Books/wizard-publication-indian-polity-and-constitution-part-ii-english-paperback-by-jojo-mathew-and-manish-kr-gautam-4288-1000x1000.jpg",
+                        "des":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                        "link":"https://www.flipkart.com/",
+                        "price":800,
+                        "quantity":100
+                        }  
+                }
+               
+            ]   
         }
+
+
+
     ]
-    }
+
+}
