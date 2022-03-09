@@ -11,7 +11,7 @@ function Search() {
     <>
     <Container>
     <div className='mt-5 mb-5 search'>
-      <input type="text" placeholder="Type subject" onChange={(event)=>{setSearchTerm(event.target.value)}}/>
+      <input type="text" placeholder="Search by subject name" onChange={(event)=>{setSearchTerm(event.target.value)}}/>
       </div>
       <table className="table" size="sm">
   <thead className='tablehead'>

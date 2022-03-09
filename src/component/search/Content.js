@@ -4,7 +4,7 @@ import bookData from '../books.json'
 import {Row, Col, Container} from 'react-bootstrap'
 import '../search/search.css'
 function Content() {
-    const [num1, setQuantity]=useState();
+    const [num1, setQuantity]=useState(0);
     const [total, setTotal]=useState(0);
     const topic=useParams();
     // console.log("topic",topic);
@@ -31,7 +31,7 @@ function Content() {
     <Col md={6} xs={12}>
     <h1 className='bookheading'>{singleBook.title}</h1>
     <Container>
-    <Row className='mt-5'>
+    <Row className='mt-5 mx-3'>
      
       <Col md={3} xs={6}>
         <div className='highlight'>
@@ -62,8 +62,8 @@ function Content() {
        <Col md={12} xs={12}>
          <Container>
          <div className='border mt-5'>
-          <h3>CONTENT:</h3> 
-         <p>{singleBook.content.des}</p>
+          <h3  className='mx-5'>CONTENT:</h3> 
+         <p className='mx-5'>{singleBook.content.des}</p>
          </div>
          </Container>
          
@@ -73,10 +73,13 @@ function Content() {
     <Row>
       <Col md={4} xs={12}>
         <Container>
-          <div className='pos'>
-        <div className='search pl-5 ml-5'>
-        <input type='number' name='quantity' value={num1} onChange={e=>setQuantity(+e.target.value)}/>
+          
+        <div className='search ml-5'>
+        <input type='number' name='quantity' value={num1} onChange={e=>setQuantity(+e.target.value)} required/>
+        
         </div>
+        <div className='pos'>
+          <p>Enter quantity to buy</p>
         </div>
         </Container>
         </Col>

@@ -1,4 +1,6 @@
 @import '../../route/Heading.scss';
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Marck+Script&family=Tangerine:wght@400;700&display=swap');
 
 @mixin marginPosition($left, $top) {
     margin-left: $left;
@@ -89,5 +91,8 @@ body{
 box-shadow: -1px 24px 34px 0px rgba(112,108,112,1);
 }
 .aboutspan{
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+   
 }

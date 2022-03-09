@@ -26,9 +26,9 @@ function TopHeader() {
          <Col>
          <div className='mt-4'>
          
-         <span><img src={facebook} alt="facebook" /> </span>
-         <span><img src={twitter} alt="twitter" /> </span>
-         <span><img src={instagram} alt="instagram" /> </span>
+         <span className='px-1'><img src={facebook} alt="facebook" /> </span>
+         <span className='px-1'><img src={twitter} alt="twitter" /> </span>
+         <span className='px-1'><img src={instagram} alt="instagram" /> </span>
         
          </div>
          </Col>

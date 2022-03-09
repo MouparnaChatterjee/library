@@ -23,6 +23,7 @@
 
   .search input::placeholder{
       color: blue;
+     
   }
   
   .search input::-webkit-input-placeholder{
@@ -109,6 +110,7 @@
     text-align: justify;
     color: #3b3b3d;
 }
+.border p{color: #3b3b3d;}
 .highlight{
     margin-left: 50%;
 }
@@ -142,6 +144,13 @@
     background:linear-gradient(90deg, #C7C5F4, #a1bfee);
     color: #191970;
     border: #191970 2px solid;
+}
+.booksearch{
+    text-align: left;
+    padding-left: 40px;
+}
+.pos{
+    margin-left: -180px;
 }
 @media only screen and (min-width:321px) and (max-width:1020px){
 

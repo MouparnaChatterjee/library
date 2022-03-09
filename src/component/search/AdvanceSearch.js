@@ -3,6 +3,7 @@ import bookData from '../books.json'
 import { Link, useParams } from 'react-router-dom'
 import {Container, Row,Col, Card} from 'react-bootstrap'
 import './search.css'
+import '../Carousel/carousel.scss'
 
 function AdvanceSearch(){
     const [searchTerm,setSearchTerm] = useState('');
@@ -14,9 +15,10 @@ function AdvanceSearch(){
         <>
         <Container>
         <div className='mt-5 mb-5 search'>
-      <input type="text" placeholder="Type keyword" onChange={(event)=>{setSearchTerm(event.target.value)}}/>
+      <input type="text" placeholder="Search by keyword" onChange={(event)=>{setSearchTerm(event.target.value)}}/>
       </div>
-       <p>Subject:{data.subject}</p>
+      <div className='section-one'><h1>List of books on {data.subject}</h1></div> 
+       <hr className='horizen'/>
        <Row xs={1} md={1} className="g-4 mb-5 pb-5">
     {data.list.filter((book)=>{
                 if(searchTerm=='')
@@ -27,15 +29,15 @@ function AdvanceSearch(){
     .map((info) => (
     <Col xs={12} md={12}>
       <Card>
-        <div className='pb-5 pt-5'>
+        <div className='pb-5 pt-5 booksearch'>
         
 
-          <strong>{info.bid}. Book name: {info.title}</strong>
-          <h1>{info.keyword}</h1>
+          <h1 className='bookheading'>{info.title}</h1>
+          
           <p>
             {info.content.des}
           </p>
-
+          <p><span style={{color: "blue"}}>Includes:</span>{info.keyword}</p>
         
         <button className='btn-sub-advance'><Link to={`/search/${val.sid}/${info.bid}`} style={{textDecoration:"none"}}>Click to see content</Link></button> 
         </div>
@@ -43,7 +45,7 @@ function AdvanceSearch(){
     </Col>
   ))}
 </Row>
-           
+  
             {/* { 
              data.list.filter((info)=>{
                 if(searchTerm=='')
