@@ -21,7 +21,8 @@ function Login() {
       .then((res)=>
         {
           console.log(res.data)
-          window.sessionStorage.setItem("tokenValue",res.data.token);
+          
+          token=window.sessionStorage.setItem("tokenValue",res.data.token);
           searchNav('/search');
         }
         )

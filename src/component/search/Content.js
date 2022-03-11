@@ -14,17 +14,19 @@ function Content() {
     console.log("topic",singleBook);
     const requiredID=singleBook.content.id;
     const fee=singleBook.content.price;
+    const quant=singleBook.content.quantity
+    
     const multiply = ()=>{
-      setTotal(num1*fee)
       
+      setTotal(num1*fee)
+     
     }
     
   
   return (
     <>
     
-    {/* <p>Content</p> 
-    <img src={singleBook.content.img} alt="Book" height={400}/> */}
+    
     <br />
     <br/>
     <Row>
@@ -87,6 +89,9 @@ function Content() {
       <Col md={4} xs={12}>
         <button onClick={multiply} className='btn-sub1'>Click to check total price</button>
         <p>Total Price:{total}</p>
+        {
+          (num1>quant)?(<span style={{color:"red"}}>!!Out of stock</span>):((num1==0)?(<span style={{color:"blue"}}>Enter quantity</span>):(<span style={{color:"green"}}>Available</span>))
+        }
         </Col>
      
       <Col md={4} xs={12}>
