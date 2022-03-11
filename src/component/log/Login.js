@@ -22,7 +22,7 @@ function Login() {
         {
           console.log(res.data)
           
-          token=window.sessionStorage.setItem("tokenValue",res.data.token);
+          window.sessionStorage.setItem("tokenValue",res.data.token);
           searchNav('/search');
         }
         )
